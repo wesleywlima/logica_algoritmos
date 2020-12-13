@@ -1,0 +1,23 @@
+Algoritmo "teste_entrada"
+
+Var
+  idade : inteiro
+  salario1, salario2 : real
+  nome : caractere
+
+Inicio
+  escreva("Digite seu nome: ")   //comando saida (tela)
+  leia(nome)                     //comando de entrada de dados, comando para ate voce digitar a variavel
+  escreva("Digite sua idade: ")
+  leia(idade)
+  escreval("Digite quanto voce ganhou nos dois ultimos meses:")
+  leia(salario1)
+  leia(salario2)
+  escreval("DADOS DIGITADOS:")
+  escreval("Nome = ", nome)
+  escreval("Idade = ", idade)
+  escreval("Salario 1 = ", salario1:8:2)
+  escreval("Salario 2 = ", salario2:8:2)
+
+
+Fimalgoritmo
